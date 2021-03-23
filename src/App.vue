@@ -1,35 +1,13 @@
 <template>
-  <div>test vue
-    <h1>
-      h12333
-    </h1>
-    <img src="./assets/a.png" alt="1111" />
+  <div id="root">
+    <div id="nav">
+      <router-link to="/"> Home</router-link>
+      <router-link to="/contact">Contact </router-link>
+    </div>
+    <router-view />
   </div>
-  <button @click="setup">111t</button>
-  <aaa />
 </template>
 
 <script>
-import HelloWorld from './modules/view/a.vue';
-export default {
-  components:{
-    aaa:HelloWorld
-  },
-  setup(){
-    const testF = () =>{
-      console.log("ddddd")
-    }
-    return {
-      testF
-    }
-  }
-};
+export default {}
 </script>
-<style lang="sass" scoped>
-div {
-  color:red;
-  h1 {
-    color:green;
-  }
-}
-</style>
