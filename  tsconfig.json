@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    
+    "baseUrl": ".",
+
+    "esModuleInterop": true,
+
+    "importHelpers": true,
+
+    "module": "esnext",
+
+    "moduleResolution": "node",
+
+    "strict": true,
+
+    "sourceMap": true,
+
+    "skipLibCheck": true,
+
+    "target": "esnext",
+    
+    "types": [
+
+    ],
+
+    "isolatedModules": true,
+
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable",
+      "ScriptHost"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
