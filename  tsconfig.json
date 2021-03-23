@@ -1,31 +1,18 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
-    
     "baseUrl": ".",
-
     "esModuleInterop": true,
-
     "importHelpers": true,
-
     "module": "esnext",
-
     "moduleResolution": "node",
-
+    "experimentalDecorators": true,
     "strict": true,
-
     "sourceMap": true,
-
     "skipLibCheck": true,
-
     "target": "esnext",
-    
-    "types": [
-
-    ],
-
+    "types": [],
     "isolatedModules": true,
-
     "paths": {
       "@/*": [
         "src/*"

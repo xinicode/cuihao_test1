@@ -21,9 +21,12 @@
     "style-loader": "^2.0.0",
     "terser-webpack-plugin": "^5.1.1",
     "vue": "^3.0.7",
-    "vue-loader": "^16.1.2"
+    "vue-class-component": "8.0.0-rc.1",
+    "vue-loader": "^16.1.2",
+    "vue-router": "4"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@vue/compiler-sfc": "^3.0.7",
     "clean-webpack-plugin": "^3.0.0",
     "file-loader": "^6.2.0",
