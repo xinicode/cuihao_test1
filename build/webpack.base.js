@@ -24,6 +24,7 @@ module.exports = {
           'vue-loader'
         ]
       },
+      { test: /\.(ttf|eot|svg|woff|woff2)$/, use: 'url-loader' },
       // {
       //   test: /\.ts$/,
       //   use: [{

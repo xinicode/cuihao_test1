@@ -6,11 +6,15 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      component: () => import('../views/a.vue')
+      component: () => import(/* webpackChunkName: "a" */ '../views/a.vue'),
     },
     {
       path: '/contact',
-      component: () => import('../views/b.vue')
+      component: () => import(/* webpackChunkName: "b" */  '../views/b.vue')
+    },
+    {
+      path: '/aaaa',
+      component: () => import(/* webpackChunkName: "c" */  '../views/c.vue')
     }
   ]
 })
