@@ -10,7 +10,7 @@ const router = createRouter({
     },
     {
       path: '/contact',
-      component: () => import(/* webpackChunkName: "b" */  '../views/b.vue')
+      component: () => import(/* webpackChunkName: "a" */  '../views/a.vue')
     },
     {
       path: '/aaaa',

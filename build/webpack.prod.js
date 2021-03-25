@@ -10,7 +10,7 @@ module.exports = WebpackMerge.merge(common, {
   mode: 'production',
   output: {
     filename: 'js/[name].[contenthash].js',
-    path: path.resolve(__dirname, '../dist')
+    path: path.resolve(__dirname, '../dist/build')
   },
   plugins: [
     new CleanWebpackPlugin()
